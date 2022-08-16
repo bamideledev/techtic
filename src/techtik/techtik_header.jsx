@@ -10,7 +10,7 @@ function Header() {
     return(
          <div className='All'>
             <div className='header_menu'>
-              <img src={techtik} alt="logo"/>
+              <img src={techtik} className='App-logo' alt="logo"/>
               <a href="google.com"> Contact Us</a>
               <button><BsMenuButtonWideFill/></button>
             </div>

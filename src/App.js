@@ -1,9 +1,11 @@
-import TechTik from "./techtik/techtik";
+import React from 'react';
+import TechTick from "./techtik/techtik";
+
 
 function App() {
   return (
     <div className="App">
-     <TechTik/>
+      <TechTick/>
     </div>
   );
 }
