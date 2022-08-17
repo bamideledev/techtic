@@ -1,6 +1,7 @@
 import React from 'react';
 import techtik from '../assets/techtik.jpeg';
 import nwp from '../assets/nwp.png';
+import logo from '../assets/logo.svg'
 import {BsMenuButtonWideFill} from 'react-icons/bs';
 import {FcPrivacy} from 'react-icons/fc';
 
@@ -77,9 +78,20 @@ function Header() {
             </div>
             <div className='footer'>
                 <a href="">Privacy policies</a>
+                <br />
                 <a href="">Careers</a>
+                <br />
                 <a href="">Terms and Agreement</a>
+                <br />
                 <p>Office location: Africa and Europe</p>
+                <div className='footer2'>
+                    <img src={techtik} alt="" />
+
+                    <div className='madeit'>
+                    <h1>Made with <img src={logo} alt="" /> from Europe</h1>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     )
