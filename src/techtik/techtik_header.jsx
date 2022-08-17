@@ -46,6 +46,16 @@ function Header() {
                   <img src={nwp} alt="just-img" />
                 </div>
             </div>
+            <div className='conten'>
+                <h2>Technology for you</h2>
+                <h1> CyberTech at its peak
+                </h1>
+                <br />
+                <p> Seemless work to ensure productivity, managing your <br /> security like never before.</p>
+            </div>
+            <div className='link_contac'>
+                <p>Your privacy is our priority <a href="#">Privacy policies</a></p>
+            </div>
             <div className='contact_container'>
                 <div className='qt'>
                    <h1>Questions?</h1>
@@ -60,16 +70,6 @@ function Header() {
                 <a href="google.com"> Contact us</a>
                 </div>
             </div>
-            <div className='conten'>
-                <h2>Technology for you</h2>
-                <h1> CyberTech at its peak
-                </h1>
-                <br />
-                <p> Seemless work to ensure productivity, managing your <br /> security like never before.</p>
-            </div>
-            <div className='link_contac'>
-                <p>Your privacy is our priority <a href="#">Privacy policies</a></p>
-            </div>
             <div className='free_container'>
                 <h1>About us</h1>
                 <p>
@@ -77,22 +77,32 @@ function Header() {
                 </p>
             </div>
             <div className='footer'>
-                <a href="">Privacy policies</a>
+                <div className='privacy'>
+                <a href="#">Privacy policies</a>
+                </div>
                 <br />
-                <a href="">Careers</a>
+                <div className='careers'>
+                <a href="#">Careers</a>
+                </div>
                 <br />
-                <a href="">Terms and Agreement</a>
+                <div className='terms'>
+                <a href="#">Terms </a>
+                </div>
                 <br />
-                <p>Office location: Africa and Europe</p>
-                <div className='footer2'>
-                    <img src={techtik} alt="" />
-
-                    <div className='madeit'>
-                    <h1>Made with <img src={logo} alt="" /> from Europe</h1>
-                    </div>
-                    
+                <div className='twitter'>
+                <a href="#">Twitter</a>
+                </div>
+                <br />
+                <div className='linkedin'>
+                <a href="#">linkedIn</a>
                 </div>
             </div>
+            <div className='footer2'>
+                    <img src={techtik} alt="" />
+                    <div className='madeit'>
+                    <h1>Made with <img src={logo} alt="" /> in Europe</h1>
+                    </div> 
+                </div>
         </div>
     )
     
