@@ -1,8 +1,8 @@
 import React from 'react';
-import techtik from '../assets/techtik.jpeg';
+import techtik2 from '../assets/techtik2.png';
 import nwp from '../assets/nwp.png';
 import logo from '../assets/logo.svg'
-import {BsMenuButtonWideFill} from 'react-icons/bs';
+
 import {FcPrivacy} from 'react-icons/fc';
 
 
@@ -11,9 +11,9 @@ function Header() {
     return(
          <div className='All'>
             <div className='header_menu'>
-              <img src={techtik} className='App-logo' alt="logo"/>
+              <img src={techtik2} className='App-logo' alt="logo"/>
               <a href="google.com"> Contact Us</a>
-              <button><BsMenuButtonWideFill/></button>
+              
             </div>
             <div className='content'>
                 <h2>The Technology for your business</h2>
@@ -21,14 +21,14 @@ function Header() {
                   <h1 className='df'> protect your  businesses.</h1>
                 </h1>
                 <br />
-                <p> With the aim of technology authentication and security, we bring to <br /> you <b>TechTik</b> to help solve web solutions.</p>
+                <p> With the aim of technology authentication and security, we bring to you <b>TechTik</b> <br /> to help solve web solutions.</p>
             </div>
             <div className='link_contact'>
                 <p>Have questions? <a href="#">Contact our sales team</a></p>
             </div>
             <div className='care'>
                 <div className='icu'>
-                    <i><FcPrivacy size={40}/></i>
+                    <i><FcPrivacy size={30}/></i>
                 </div>
                 <div className='careu'>
                      <p>We care about your privacy:</p>
@@ -73,7 +73,7 @@ function Header() {
             <div className='free_container'>
                 <h1>About us</h1>
                 <p>
-                    We are technology company whose aim is to tackle  authentication and security from serial attacks like<br /> ransomware, our company has proved its eligibility with different companies around the globe,<br /> mainly in Africa and Europe and we will continue to make sure we serve a purpose to fight <br />web attacks with our over 20 software engineers and 10 cyber security experts,<br /> and we are looking for more as we grow.
+                    We are technology company whose aim is to tackle  authentication and security from serial attacks like ransomware, our company has proved its eligibility with different companies around the globe, mainly in Africa and Europe and we will continue to make sure we serve a purpose to fight web attacks with our over 20 software engineers and 10 cyber security experts, and we are looking for more as we grow.
                 </p>
             </div>
             <div className='footer'>
@@ -98,7 +98,7 @@ function Header() {
                 </div>
             </div>
             <div className='footer2'>
-                    <img src={techtik} alt="" />
+                    <img src={techtik2} alt="" />
                     <div className='madeit'>
                     <h1>Made with <img src={logo} alt="" /> in Europe</h1>
                     </div> 
