@@ -2,7 +2,7 @@ import React from 'react';
 import techtik2 from '../assets/techtik2.png';
 import nwp from '../assets/nwp.png';
 import logo from '../assets/logo.svg'
-
+import Html from '../html nav bar/htmlnav';
 import {FcPrivacy} from 'react-icons/fc';
 
 
@@ -10,10 +10,8 @@ function Header() {
 
     return(
          <div className='All'>
-            <div className='header_menu'>
-              <img src={techtik2} className='App-logo' alt="logo"/>
-              <a href="google.com"> Contact Us</a>
-              
+            <div>
+                <Html/>
             </div>
             <div className='content'>
                 <h2>The Technology for your business</h2>
@@ -78,7 +76,7 @@ function Header() {
             </div>
             <div className='footer'>
                 <div className='privacy'>
-                <a href="#">Privacy policies</a>
+                <a href="#">Privacy</a>
                 </div>
                 <br />
                 <div className='careers'>

@@ -2,6 +2,7 @@ import React from 'react';
 import TechTick from "./techtik/techtik";
 
 
+
 function App() {
   return (
     <div className="App">

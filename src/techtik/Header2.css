@@ -9,42 +9,10 @@ body{
     background-color: white;
     
 }
-.header_menu img{
-    height: 120px;
-    width: 120px;
-    margin-top: 5px;
-}
-.header_menu{
-  position: fixed;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  top: 0;
-  padding-left: 40px;
-  padding-right: 30px;
-  background-color: white;
-  border: 0.5px solid grey;
-}
-.header_menu a{
-    color: #0479A9;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    margin-top: 50px;
-    margin-right: 90px;
-}
-.header_menu button{
-    display: none;
-    float: right;
-    line-height: 80px;
-    cursor: pointer;
-}
-.header_menu a:hover{
-    color: black;
-}
+
 
 .content{
-    margin-top: 190px;
+    margin-top: 160px;
 }
 .content h1{
     color : #0479A9 ;
@@ -78,7 +46,7 @@ body{
     text-align: center;
     margin-top: 50px;
     font-family: 'Poppins', sans-serif;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 600;
 }
 .link_contact a{
@@ -90,9 +58,9 @@ body{
 .care{
     display: flex;
     background-color: white;
-    height: 5rem;
+    height: 7rem;
     border: 0.1px solid gray;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 70px;
     margin-top: 50px;
     font-family: 'Poppins';
@@ -107,13 +75,14 @@ body{
 }
 .careu p{
     font-size: 15px;
+    letter-spacing: 0.5px;
     font-weight: 500;
     margin: 0;
 
 }
 .careu a{
     color: rgba(0, 0, 255, 0.724);
-    font-weight: 600;
+    font-weight: 500;
     text-decoration-line: none;
     margin: 0;
 }
@@ -275,7 +244,7 @@ body{
 }
 .qt{
     margin-bottom: -20px;
-    margin-left: 32px;
+    margin-left: 26px;
     display: flex;
     padding-top: 50px;
 }
@@ -289,10 +258,10 @@ body{
     margin-top: -2px;
     padding-left: 5px;
     font-family: 'Montserrat';
-    font-weight: 400;
+    font-weight: 600;
 }
 .q_content{
-    margin-top: 10px;
+    margin-top: 30px;
     color: white;
     font-size: 18px;
     padding-left:30px;
@@ -368,7 +337,7 @@ body{
     margin-bottom: -60px;
     background-color: #46B1E5;
     height: 3rem;
-    padding-top: 20px;
+    padding-top: 11px;
     display: flex;
     justify-content: space-evenly;
     
@@ -413,14 +382,14 @@ body{
 
 @media screen and (max-width:1080px){
     .content{
-        margin-top: 120px;
+        margin-top: 160px;
         
     }
     .content h1{
         color : #0479A9 ;
         font-size: 24px;
         font-weight: 500;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', ;
         text-align: center;
     }
     .content h2{
@@ -433,8 +402,13 @@ body{
         letter-spacing: 2px;
     }
     .link_contact{
+        padding-left: 18px;
+    }
+    .link_contact p a{
         margin-top: 30px;
         margin-bottom: 30px;
+        font-size: 12px;
+        
     }
     .content p{
         color: rgba(0, 0, 0, 0.604);
@@ -444,26 +418,13 @@ body{
         font-family: 'Poppins', sans-serif;
         text-align: center;
     }
-    .header_menu img{
-        height: 80px;
-        width: 80px;
-        margin-top: 5px;
-    }
-    .header_menu{
-      display: flex;
-      padding-left: 40px;
-      padding-right: 30px;
-      border: 0.5px solid grey;
-    }
-    .header_menu a{
-        
-    }
+    
     .care{
         display: flex;
         background-color: white;
-        height: 5rem;
+        height: 6rem;
         border: 0.1px solid gray;
-        padding-top: 35px;
+        padding-top: 25px;
         padding-left: 20px;
         margin-top: 50px;
         font-family: 'Poppins';
@@ -478,6 +439,7 @@ body{
     .care a{
         color: blue;
         font-weight: 400;
+        font-size: 15px;
     }
     .careu p{
         letter-spacing: 0.2px;
@@ -493,12 +455,15 @@ body{
     }
     .just_us p{
         margin-left: 10px;
-        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Poppins';
+        color: whitesmoke;
+        font-size: 16px;
         padding-bottom: 20px;
     }
     .just_us h1{
         margin-left: 10px;
-        font-size: 18px;
+        font-size: 22px;
     }
     .flex{
         margin-left: 20px;
@@ -577,9 +542,10 @@ body{
         margin-top: -4px;
     }
     .footer{
+        padding-left: 16px;
         margin-top: 50px;
         margin-bottom: -60px;
-        height: 13rem;
+        height: 15rem;
         padding-top: 20px;
         display: block;
         text-align: center;
@@ -607,7 +573,7 @@ body{
       .contact_container{
         background-color: #46B1E5;
         height: 22rem;
-        max-width: 300px;
+        max-width: 400px;
         margin-left: 20px;
         margin-right: 20px ;
         border-radius: 30px;
@@ -663,12 +629,15 @@ body{
     }
     .conten h1{
         color : #0479A9 ;
+        padding-bottom: 10px;
         font-size: 24px;
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
         text-align: center;
     }
     .conten h2{
+        margin-top: -40px;
+        padding-bottom: 5px;
         color : rgb(233, 153, 5);
         font-size: 12px;
         font-weight: 500;
@@ -684,6 +653,13 @@ body{
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
         text-align: center;
+    }
+    .link_contac{
+        margin-top: 20px;
+    }
+    .link_contac p a{
+        margin-bottom: 30px;
+        font-size: 12px;
     }
       
 }
