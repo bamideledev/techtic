@@ -1,10 +1,9 @@
 import React from 'react';
-import techtik2 from '../assets/techtik2.png';
 import nwp from '../assets/nwp.png';
-import logo from '../assets/logo.svg'
 import Html from '../html nav bar/htmlnav';
 import {FcPrivacy} from 'react-icons/fc';
 import './Header2.css';
+import Footer from '../footer_techtic/footer';
 
 
 function Header() {
@@ -96,11 +95,8 @@ function Header() {
                 <a href="#">linkedIn</a>
                 </div>
             </div>
-            <div className='footer2'>
-                    <img src={techtik2} alt="" />
-                    <div className='madeit'>
-                    <h1>Made with <img src={logo} alt="" /> in Europe</h1>
-                    </div> 
+              <div>
+                   <Footer/>
                 </div>
         </div>
     )
