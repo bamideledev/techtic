@@ -4,6 +4,7 @@ import nwp from '../assets/nwp.png';
 import logo from '../assets/logo.svg'
 import Html from '../html nav bar/htmlnav';
 import {FcPrivacy} from 'react-icons/fc';
+import './Header2.css';
 
 
 function Header() {

@@ -334,7 +334,7 @@ body{
 }
 .footer{
     margin-top: 50px;
-    margin-bottom: -60px;
+    margin-bottom: -50px;
     background-color: #46B1E5;
     height: 3rem;
     padding-top: 11px;
@@ -350,6 +350,7 @@ body{
     color: #0479A9;
 }
 .footer2{
+    margin-bottom: -40px;
   display: flex;
   justify-content: center;
 }
@@ -358,16 +359,15 @@ body{
     color: rgb(72, 66, 66);
 }
 .footer2 img{
-    height: 90px;
-    width: 90px;
-    padding-top: 60px;
+    height: 120px;
+    padding-top: 50px;
 }
 .footer2 h1 img{
     height: 10px;
     width: 19px;
 }
 .madeit{
-    margin-top: 29px;
+    margin-top: 38px;
 }
 
 
@@ -543,10 +543,10 @@ body{
     }
     .footer{
         padding-left: 16px;
-        margin-top: 50px;
-        margin-bottom: -60px;
-        height: 15rem;
-        padding-top: 20px;
+        margin-top: 30px;
+        margin-bottom: -30px;
+        height: 16rem;
+        padding-top: 10px;
         display: block;
         text-align: center;
     }
@@ -565,7 +565,7 @@ body{
       }
       .footer2 h1 img{
           height: 10px;
-          width: 19px;
+          width: 20px;
       }
       .madeit{
           margin-top: 11px;
