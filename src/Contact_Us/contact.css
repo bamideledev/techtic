@@ -31,7 +31,9 @@ a{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
-    margin-top: -60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 0px;
     height: 12vh;
     border: 0.5px solid gray ;
     background: white;
@@ -52,6 +54,14 @@ a{
     color: #2a6786;
     margin-top: 30px;
     margin-right: 10px;
+}
+.need_us{
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 140px;
+    color : rgb(233, 153, 5);
+    text-align: center;
+    
 }
 
 @media screen and (max-width: 768px) {

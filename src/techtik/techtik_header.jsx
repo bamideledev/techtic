@@ -1,18 +1,12 @@
 import React from 'react';
 import nwp from '../assets/nwp.png';
-import Html from '../html nav bar/htmlnav';
 import {FcPrivacy} from 'react-icons/fc';
 import './Header2.css';
-import Footer from '../footer_techtic/footer';
 
 
 function Header() {
-
     return(
          <div className='All'>
-            <div>
-                <Html/>
-            </div>
             <div className='content'>
                 <h2>The Technology for your business</h2>
                 <h1> A fight on security  threats to 
@@ -88,16 +82,13 @@ function Header() {
                 </div>
                 <br />
                 <div className='twitter'>
-                <a href="#">Twitter</a>
+                <a href="https://twitter.com/TechAuthentik?t=H2GuJDjHWWp8wg_vSEnlDA&s=09">Twitter</a>
                 </div>
                 <br />
                 <div className='linkedin'>
-                <a href="#">linkedIn</a>
+                <a href="https://www.linkedin.com/in/adeyanju-taofeek-82049b218">linkedIn</a>
                 </div>
             </div>
-              <div>
-                   <Footer/>
-                </div>
         </div>
     )
     
