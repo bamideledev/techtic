@@ -10,7 +10,6 @@ function App() {
     <div className='App'>
     <Html />
     <TechTick />
-    <Footer/>
     </div>
   );
 }
