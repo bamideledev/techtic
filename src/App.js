@@ -8,7 +8,9 @@ import Contact from './Contact_Us/Contact_Us';
 function App() {
   return (
     <div className='App'>
-     <Contact/>
+    <Html />
+    <TechTick />
+    <Footer/>
     </div>
   );
 }

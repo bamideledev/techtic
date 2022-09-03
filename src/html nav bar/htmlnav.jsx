@@ -18,7 +18,7 @@ function Html() {
                 <ul className={active}>
                     <li className='nav_item'>
                         <a href="/" className='nav_link'> Contact Us</a>
-                        <a href="https://www.linkedin.com/in/adeyanju-taofeek-82049b218" className='naviconu'><AiFillLinkedin size={17}/> LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/adeyanju-taofeek-82049b218"className='naviconu'><AiFillLinkedin size={17}/> LinkedIn</a>
                     </li>
                 </ul>
                 <div onClick={navToggle} className='nav_toggler'>

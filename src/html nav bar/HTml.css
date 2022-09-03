@@ -27,7 +27,7 @@ a{
 }
 .nav1{
     position: fixed;
-    width: 10%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
