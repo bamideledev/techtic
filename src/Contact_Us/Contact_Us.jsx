@@ -15,7 +15,7 @@ function Contact () {
     }
     return(
         <div>
-             <nav className='nav1'>
+             <nav className='nav2'>
                 <img src={techtik2} alt="logo" />
                 <ul className={active}>
                     <li className='nav_item'>
@@ -27,7 +27,6 @@ function Contact () {
                     <HiMenuAlt3 size={30}/>
                 </div>
              </nav>
-
             <div className='need_us'>
                 <h1>Need us now?</h1>
             </div>

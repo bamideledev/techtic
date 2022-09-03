@@ -21,11 +21,11 @@ a{
     color: #2a6786;
     margin-right: 30px;
 }
-.nav1 img{
+.nav2 img{
     height: 100px;
     margin-top: -32px;
 }
-.nav1{
+.nav2{
     position: fixed;
     width: 100%;
     display: flex;
@@ -33,7 +33,6 @@ a{
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
-    margin-top: 0px;
     height: 12vh;
     border: 0.5px solid gray ;
     background: white;
@@ -69,7 +68,7 @@ a{
         display: block;
         margin-top: 5px;
     }
-    .nav1 ul li .naviconu{
+    .nav2 ul li .naviconu{
         display: block;
         padding-top: 15px;
     }
