@@ -7,11 +7,21 @@ import './contact.css'
 
 function Contact () {
     const [active, setActive] = useState('nav_menu')
-    
     const navToggle = () => {
         active === 'nav_menu' 
         ? setActive ('nav_menu nav_active')
         : setActive('nav_menu');
+    } 
+    const [inputs, setInputs] = useState({});
+      const handleChange = (event) =>
+      {
+        const name = event.target.name;
+        const value = event.target.value
+        setInputs (values => ({...values, [name]: value}))
+      }
+    const doSubmit=  (event) => {
+        event.preventDefault();
+        console.log(inputs);
     }
     return(
         <div>
@@ -29,6 +39,19 @@ function Contact () {
              </nav>
             <div className='need_us'>
                 <h1>Need us now?</h1>
+            </div>
+            <div className='reach'>
+                <p>Reach us with any of the below contact</p>
+                <p>0140563229</p>
+                <p>+971-0521550524</p>
+            </div>
+            <div className='form'>
+              <form>
+                  <input type="text" placeholder='Name' name='name' value={inputs.name}/> <br />
+                  <input type="email" placeholder='Email' name='email' value={inputs.email}/> <br />
+                  <textarea name="text" id="#" cols="25" rows="9" placeholder='Enter message here'></textarea> <br />
+                  <input type="submit"/>
+              </form>
             </div>
         </div>
     )
